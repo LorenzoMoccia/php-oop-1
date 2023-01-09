@@ -1,3 +1,22 @@
+<?php 
+        class Movie{
+            public $titolo;
+            public $regista;
+
+            function __construct($_titolo, $regista){
+                $this->titolo = $_titolo;
+                $this->regista = $regista;
+            }
+
+            function shareOnNetflix(){
+                
+            }
+            
+        }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +26,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-        class Movie{
-            public $titolo;
-            public $regista;
-
-            function __construct($_titolo, $regista){
-                $this->titolo = $_titolo;
-                $this->regista = $regista;
-            }
-            
-        }
-    ?>
+    
 </body>
 </html>
