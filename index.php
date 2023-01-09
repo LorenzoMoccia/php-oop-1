@@ -9,7 +9,8 @@
 <body>
     <?php 
         class Movie{
-            
+            public $titolo;
+            public $regista;
         }
     ?>
 </body>
