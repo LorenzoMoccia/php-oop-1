@@ -11,6 +11,11 @@
         class Movie{
             public $titolo;
             public $regista;
+
+            function __construct($_titolo){
+                $this->titolo = $_titolo;
+            }
+            
         }
     ?>
 </body>
