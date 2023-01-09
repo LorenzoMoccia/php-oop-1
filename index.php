@@ -30,6 +30,8 @@
     <?php 
     $primoFilm = new Movie("Narcos", "Andrés Baiz");
     $secondoFilm = new Movie("Natale in India","Neri Parenti");
+
+    echo $primoFilm;
     ?>
 </body>
 </html>
