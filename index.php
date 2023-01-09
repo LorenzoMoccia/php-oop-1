@@ -12,8 +12,9 @@
             public $titolo;
             public $regista;
 
-            function __construct($_titolo){
+            function __construct($_titolo, $regista){
                 $this->titolo = $_titolo;
+                $this->regista = $regista;
             }
             
         }
