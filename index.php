@@ -2,14 +2,15 @@
         class Movie{
             public $titolo;
             public $regista;
+            public $date;
 
             function __construct($_titolo, $regista){
                 $this->titolo = $_titolo;
                 $this->regista = $regista;
             }
 
-            function shareOnNetflix(){
-                
+            function setReleaseDate(){
+                $date = date("d/m/Y");
             }
             
         }
